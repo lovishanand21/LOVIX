@@ -1,0 +1,15 @@
+# LOVIX - Offline Windows Desktop Voice Assistant Dependencies
+# Compatible with Python 3.12 on Windows 11 (64-bit)
+# All packages are 100% free and open-source. Total cost: ₹0.
+
+# Offline Speech Recognition and Grammar/Wake-Word Spotting
+vosk>=0.3.45
+
+# Microphone Audio Stream Capture (Includes pre-compiled PortAudio on Windows)
+sounddevice>=0.4.6
+
+# Numerical Array Processing for Audio Buffers
+numpy>=1.26.0
+
+# Offline Text-To-Speech Engine (Uses Windows native SAPI5 voices)
+pyttsx3>=2.90
